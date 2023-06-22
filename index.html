@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorizing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="root-container">
+        <div class="container-fluid justify-content-right">
+            <div id="title">
+                <img draggable="false" src="https://assets-lighthouse.alphacamp.co/uploads/image/file/17990/__.png">
+                <span>Memorizing Game</span>
+            </div>
+        </div>
+
+        <div class="container-fluid justify-content-right">
+            <p id="score">Score: 0</p>
+        </div>
+
+        <div class="container-fluid justify-content-right">
+            <p id="try-count">You've tried: 0 times</p>
+        </div>
+
+        <div class="container-fluid justify-content-center">
+            <div id="card-container">
+                <div class="card-row"></div>
+                <div class="card-row"></div>
+                <div class="card-row"></div>
+                <div class="card-row"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="game-over-container" style="display: none;"></div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
